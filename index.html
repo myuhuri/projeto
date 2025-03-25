@@ -3,38 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAC Space</title>
-
+    <title>Apple Shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Produtos de Informática</h1>
+        <h1>Apple Shop</h1>
     </header>
     <main>
-    <section>
+        <section>
             <input id="campo-pesquisa" type="text" placeholder="Digite o nome do Produto">
             <button onclick="pesquisar()">Pesquisar</button>
-    </section>
+        </section>
 
-    <section class="resultados-pesquisa" id="resultados-pesquisa">
-        <!--
-        <div class="item-resultado">
-            <h2> Macbook</h2>
-            <p class="descricao-meta">O MacBook é uma linha de computadores portáteis desenvolvidos pela Apple, reconhecidos por seu design elegante, desempenho eficiente e recursos inovadores.</p>
-            <a href="https://www.apple.com/macbook" target="_blank">Mais Informações</a>             
-        </div>
-        <div class="item-resultado">
-            <h2> iPhone</h2>
-            <p class="descricao-meta">O iPhone é uma linha de smartphones da Apple, conhecida por sua alta qualidade, sistema operacional iOS exclusivo e recursos avançados de câmera e segurança.</p>
-            <a href="https://www.apple.com/iphone" target="_blank">Mais Informações</a>            
-       </div>
-        <div class="item-resultado">
-            <h2>Mac Air</h2>
-            <p class="descricao-meta">O MacBook Air é um notebook ultraleve da Apple, conhecido por sua portabilidade, design fino e desempenho eficiente, ideal para tarefas do dia a dia e mobilidade.</p>
-            <a href="https://www.apple.com/macbook-air" target="_blank">Mais Informações</a>                                   
-        </div> -->
-    </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <div class="item-resultado">
+                <h2>HomePod Mini</h2>
+                <img src="https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_white__byv5v65oppg2_large.jpg" alt="HomePod Mini" class="produto-imagem">
+                <p class="descricao-meta">O HomePod Mini é um alto-falante inteligente compacto da Apple, oferecendo áudio de alta qualidade e integração com a Siri e o ecossistema Apple.</p>
+                <a href="https://www.apple.com/homepod-mini" target="_blank">Mais Informações</a>
+            </div>
+            <div class="item-resultado">
+                <h2>iPad Pro</h2>
+                <img src="https://www.apple.com/v/ipad-pro/as/images/overview/highlights/chip__fj2i2rsn8jee_large.jpg" alt="iPad Pro" class="produto-imagem">
+                <p class="descricao-meta">O iPad Pro é um tablet poderoso com desempenho comparável ao de notebooks, ideal para trabalho, criação e entretenimento.</p>
+                <a href="https://www.apple.com/ipad-pro" target="_blank">Mais Informações</a>
+            </div>
+            <div class="item-resultado">
+                <h2>Iphone</h2>
+                <img src="https://imgs.casasbahia.com.br/55067421/1g.jpg?imwidth=1000" alt="Magic Keyboard" class="produto-imagem">
+                <p class="descricao-meta">O iPhone é um smartphone da Apple que se destaca por sua combinação de design elegante, tecnologia avançada e um ecossistema integrado. </p>
+                <a href="https://www.apple.com/br/shop/buy-iphone" target="_blank">Mais Informações</a>
+            </div>
+            <div class="item-resultado">
+                <h2>Apple Pencil</h2>
+                <img src="https://www.apple.com/v/apple-pencil/af/images/overview/usb-c/apple_pencil__bznzcb8von8i_large.jpg" alt="Apple Pencil" class="produto-imagem">
+                <p class="descricao-meta">O Apple Pencil oferece precisão e sensibilidade de inclinação e pressão, tornando-o a ferramenta ideal para artistas e criativos.</p>
+                <a href="https://www.apple.com/apple-pencil" target="_blank">Mais Informações</a>
+            </div>
+            <div class="item-resultado">
+                <h2>iMac</h2>
+                <img src="https://www.apple.com/v/imac/t/images/overview/product-stories/display/display_nano_texture__gmq77jz8crm2_large.jpg" alt="iMac" class="produto-imagem">
+                <p class="descricao-meta">O iMac é um desktop elegante e potente, com tela Retina deslumbrante e desempenho excepcional para trabalho e lazer.</p>
+                <a href="https://www.apple.com/imac" target="_blank">Mais Informações</a>
+            </div>
+            <div class="item-resultado">
+                <h2>Mac Studio</h2>
+                <img src="https://www.apple.com/v/mac-studio/h/images/overview/hero/static_back__dx1rvyhaaxsi_large.jpg" alt="Mac Studio" class="produto-imagem">
+                <p class="descricao-meta">O Mac Studio é um computador desktop compacto, criado para profissionais que precisam de desempenho extremo e flexibilidade.</p>
+                <a href="https://www.apple.com/mac-studio" target="_blank">Mais Informações</a>
+            </div>
+            <div class="item-resultado">
+                <h2>Apple AirTag</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG3KVgmUz4SmuwCPTVyONJlroTXfPvx47xvA&s" alt="Apple AirTag" class="produto-imagem">
+                <p class="descricao-meta">O AirTag ajuda você a localizar objetos perdidos usando a rede Buscar da Apple.</p>
+                <a href="https://www.apple.com/airtag" target="_blank">Mais Informações</a>
+            </div>
+            <div class="item-resultado">
+                <h2>Apple Arcade</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpe0rs4fCOSGw4Fx_d1v-LwN_eOT1FyTtuvA&s" alt="Apple Arcade" class="produto-imagem">
+                <p class="descricao-meta">O Apple Arcade oferece acesso ilimitado a uma vasta biblioteca de jogos exclusivos para dispositivos Apple.</p>
+                <a href="https://www.apple.com/apple-arcade" target="_blank">Mais Informações</a>
+            </div>
+            <div class="item-resultado">
+                <h2>Apple One</h2>
+                <img src="https://www.apple.com/newsroom/images/product/services/standard/apple_apple-one_family-of-devices_09152020.jpg.landing-big_2x.jpg" alt="Apple One" class="produto-imagem">
+                <p class="descricao-meta">O Apple One combina vários serviços da Apple em uma única assinatura conveniente e acessível.</p>
+                <a href="https://www.apple.com/apple-one" target="_blank">Mais Informações</a>
+            </div>
+            <div class="item-resultado">
+                <h2>AirPods Pro</h2>
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-pro-2-hero-select-202409_FMT_WHH?wid=750&hei=556&fmt=jpeg&qlt=90&.v=1724041668836" alt="AirPods Pro" class="produto-imagem">
+                <p class="descricao-meta">Os AirPods Pro oferecem cancelamento ativo de ruído, modo ambiente e um ajuste personalizável para conforto o dia todo.</p>
+                <a href="https://www.apple.com/airpods-pro" target="_blank">Mais Informações</a>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -42,9 +85,11 @@
             <div class="row">
                 <div class="col">
                     <h3>Sobre Nós</h3>
-                    <p>Email: contato@seusite.com</p>
+                    <p>Email: Thaemillyoliveira@acad.ifma.edu.br</p>
+                    <p>Telefone: (99) 99196-4728</p>
                 </div>
             </div>
+            <p>&copy; 2025 Apple Shop - Todos os direitos reservados.</p>
         </div>
     </footer>
 
